@@ -1,30 +1,4 @@
-/*==============================================================
 
-	Item	:	Myers - Responsive Resume/CV/vCard Template
-
-	Author	:	Noman Ali Samejo
-
-----------------------------------------------------------------
-	List of Contents
-----------------------------------------------------------------
-
-	01. General Styles
-	02. Preloader
-	03. Menu Styles
-	04. Intro Section
-	05. About Section
-	06. Resume Section
-	07. Portfolio Section
-	08. Blog Section
-	09. Contact Section
-	10. Single Post Page
-	11. Responsive CSS
-
-==============================================================*/
-
-/*==============================================================
-	General Styles
-==============================================================*/
 @import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:100,200,300,400,500,600,700,800,900|Lora:400,400i,700,700i';
 *{
 	font-family:inherit;
@@ -143,7 +117,7 @@ body.section-animate .section.active{
 }
 .col-img{
 	position:fixed;
-	top:0;
+	top:10%;
 	left:0;
 	bottom:0;
 	width:33.5%;
@@ -156,10 +130,6 @@ body.section-animate .section.active{
 }
 
 
-
-/*==============================================================
-	Preloader
-==============================================================*/
 #preloader{
 	position:fixed;
 	top:0;
@@ -188,9 +158,6 @@ body.loaded #preloader{
 	visibility:hidden;
 }
 
-/*==============================================================
-	Menu Styles
-==============================================================*/
 .menu-btn{
 	position:absolute;
 	top:35px;
@@ -375,9 +342,6 @@ body.show-menu .menu-items > li > a{
 	transform:translateY(0%);
 }
 
-/*==============================================================
-	Intro Section
-==============================================================*/
 .intro-section{
 	padding:0;
 }
@@ -600,10 +564,6 @@ body.show-menu .menu-items > li > a{
 	font-size:12px;
 }
 
-
-/*==============================================================
-	Resume Section
-==============================================================*/
 .resume-section .pre{
 	margin-bottom:50px;
 }
@@ -728,9 +688,6 @@ body.show-menu .menu-items > li > a{
 	background:#202020;
 }
 
-/*==============================================================
-	Portfolio Section
-==============================================================*/
 .portfolio-items{
 	list-style:none;
 	margin:0;
@@ -992,9 +949,6 @@ a.link:hover,
 	box-shadow:0 -7px 0 0 rgba(0,0,0,.25) inset;
 }
 
-/*==============================================================
-	Blog Section
-==============================================================*/
 .blog-posts{
 	list-style:none;
 	margin:0;
@@ -1041,9 +995,6 @@ a.link:hover,
 	color:rgba(0,0,0,.6);
 }
 
-/*==============================================================
-	Contact Section
-==============================================================*/
 .contact-info{
 	position:relative;
 	margin-top:20px;
@@ -1102,9 +1053,6 @@ textarea.form-control{
 	background:transparent !important;
 }
 
-/*==============================================================
-	Single Post Page
-==============================================================*/
 .single-post > h1{
 	font-size:38px;
 	margin-top:0;
@@ -1234,9 +1182,6 @@ textarea.form-control{
 	text-transform:uppercase;
 }
 
-/*==============================================================
-	Responsive CSS
-==============================================================*/
 @media(max-width:1350px){
 	.single-post > .content > p{
 		padding:0 60px;
